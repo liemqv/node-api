@@ -15,7 +15,7 @@ app.use(express.logger('dev'));
 app.get('/api/:name', function(req, res) {
   res.json(200, { "your-name": req.params.name });
 });
-app.listen(3000, function(){
+app.listen(80, function(){
   console.log("ready liemqv.");
 });
 
