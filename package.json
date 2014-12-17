@@ -1,0 +1,12 @@
+{
+  "name": "NodeAPI",
+  "version": "0.1.0",
+  "description": "NodeJS API example.",
+  "author": "Your Name <liemqv@gmail.com> (http://timdothatlac.com/)",
+  "scripts": {
+    "start": "node --harmony ./server.js"
+  },
+  "dependencies": {
+    "express": "^3.3.8"
+  }
+}
